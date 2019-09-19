@@ -25,6 +25,25 @@ https://dogwood008.github.io/kotlin-web-site-ja/docs/reference/
 
 ※ Javaには参照型のBooleanもあることに注意
 
+## 変数宣言
+
+```java
+
+// Java8まで
+int length = 9;
+final int length = 9; // 読み取り専用
+
+// Java11
+var length = 9
+```
+
+```kotlin
+var length = 9
+val length = 9 // 読み取り専用
+```
+
+※ 基本的にはメモリの節約のため読み取り変数を使いましょう
+
 ## 関数宣言の仕方
 
 ```java
@@ -63,6 +82,34 @@ fun getNumOfCode() = 2500
         * Python, Ruby, JavaScript
     * 静的型付け言語
         * Java, Kotlin, TypeScript
+        
+## レシピ
+
+### クラス編
+
+* 関数宣言
+
+* 継承
+
+* データクラス
+
+* Enum
+
+### 基本構文編
+
+* ifと周辺演算子
+
+* 配列/コレクション
+
+* for/forEach
+
+* switch/when
+
+以下余裕があれば
+
+* スコープ関数
+
+* filter
         
 
         
