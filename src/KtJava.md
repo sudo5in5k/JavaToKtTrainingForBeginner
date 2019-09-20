@@ -71,6 +71,7 @@ fun getNumOfCode(): Int = 2500
 fun getNumOfCode() = 2500
 ```
 
+
 ### 型推論
 
 * 型推論
@@ -82,6 +83,22 @@ fun getNumOfCode() = 2500
         * Python, Ruby, JavaScript
     * 静的型付け言語
         * Java, Kotlin, TypeScript
+
+## Null-Safety
+
+* null参照時のエラーを防ぐ仕組み
+    * Javaの場合は特段それが認識されないため、実行してからNullPointerExceptionでアプリやサービスが落ちる
+        * OMG
+        
+### KotlinのNull-Safety
+
+nullableとnon-nullの概念
+
+#### nullable
+nullがok
+
+#### non-null
+nullはだめ
         
 ## レシピ
 
