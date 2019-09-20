@@ -18,7 +18,7 @@ public class ListCollection {
     }
 
     private static String[] getSkillList() {
-        // List
+        // 配列
         String[] skills = new String[5];
         skills[0] = "Java";
         skills[1] = "COBOL";
@@ -29,10 +29,11 @@ public class ListCollection {
     }
 
     private static void printResourceArrayList() {
-        getResourceArrayList().forEach(r -> System.out.println(r));
+        getResourceArrayList().forEach(System.out::println);
     }
 
     private static ArrayList<Integer> getResourceArrayList() {
+        // コレクション
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(1);
         arrayList.add(2);

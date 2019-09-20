@@ -12,6 +12,7 @@ fun main() {
 }
 
 private fun showPrice(type: ParticipantType) {
+    // when
     when (type) {
         ParticipantType.STUDENT -> println("入館料金は${type.price}円です")
         ParticipantType.NORMAL -> println("入館料金は${type.price}円です")
