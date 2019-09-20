@@ -3,8 +3,9 @@ package ktFiles
 open class Greeting(private val language: String = "") {
 
     private var count = 0
+
     // Secondary constructor
-    constructor(language: String, length: Int):  this(language) {
+    constructor(language: String, length: Int) : this(language) {
         count = length
     }
 

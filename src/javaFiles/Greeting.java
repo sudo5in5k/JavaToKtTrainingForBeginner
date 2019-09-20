@@ -19,7 +19,7 @@ class Greeting {
     }
 
     void loopGreeting() {
-        for (int i =0; i< length; i++) {
+        for (int i = 0; i < length; i++) {
             if (i == 0) {
                 System.out.printf("%s: Hello: %s\n", i, this.language);
             }

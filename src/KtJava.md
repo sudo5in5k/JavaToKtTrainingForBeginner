@@ -34,7 +34,7 @@ int length = 9;
 final int length = 9; // 読み取り専用
 
 // Java11
-var length = 9
+var length = 9;
 ```
 
 ```kotlin
@@ -97,7 +97,7 @@ fun getNumOfCode() = 2500
 
 ### 基本構文編
 
-* ifと周辺演算子
+* if
 
 * 配列/コレクション
 

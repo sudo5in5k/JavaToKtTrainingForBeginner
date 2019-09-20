@@ -1,0 +1,4 @@
+package ktFiles
+
+class ListCollection {
+}
