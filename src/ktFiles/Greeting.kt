@@ -2,11 +2,11 @@ package ktFiles
 
 open class Greeting(private val language: String = "") {
 
-    private var count = 0
+    private var length = 0
 
     // Secondary constructor
     constructor(language: String, length: Int) : this(language) {
-        count = length
+        this.length = length
     }
 
     fun greet() {
@@ -14,7 +14,7 @@ open class Greeting(private val language: String = "") {
     }
 
     fun loopGreet() {
-        for (i in 0..count) {
+        for (i in 0..length) {
             if (i == 0) {
                 println("Hello! $language")
             }
