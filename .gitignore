@@ -154,4 +154,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# added by user
+src/onlineCoding/
+
 # End of https://www.gitignore.io/api/java,macos,kotlin,intellij+all

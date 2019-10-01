@@ -51,6 +51,10 @@ public void hoge() {
   return;
 }
 
+public void huga(String piyo) {
+  return;
+}
+
 public int getNumOfCode() {
   return 2500;
 }
@@ -58,6 +62,10 @@ public int getNumOfCode() {
 
 ```kotlin
 fun hoge() {
+  //
+}
+
+fun huga(piyo: String) {
   //
 }
 
